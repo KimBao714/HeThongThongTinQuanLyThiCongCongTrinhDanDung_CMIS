@@ -1,13 +1,5 @@
 # Hệ thống Quản lý Thi công Công trình Dân dụng — MVP
 
-> ⚠️ Đang trong giai đoạn chuyển đổi sang schema DB mới (`mainDB_latest.sql`).
-> Module `Tiến độ` (`tiendo`) đã bị gỡ khỏi code vì entity nền (`QlTienDo`)
-> không còn khớp với schema mới — xem chi tiết bên dưới. Module `Bản vẽ`,
-> `Chi phí`, `Vật liệu` (đã gộp `Sử dụng vật liệu`), `Nhân sự` (đã gộp
-> `Phân công`) và `Dashboard tổng quan` (thay thế module `Công trình` cũ)
-> đã được xây dựng lại theo schema mới. `models.py` đã được viết lại đúng
-> theo `mainDB_latest.sql`.
-
 ## 1. Cài thư viện
 ```
 pip install -r requirements.txt
